@@ -1,0 +1,24 @@
+package Questao1;
+import java.util.Scanner;
+public class Questao7 {
+	public static void main (String args[]) 
+	{
+		Scanner ler = new Scanner (System.in); {
+		double a,b,c,d,i,f,x,y;
+		System.out.println("Digite os valores de A, B, C, D, E e F: ");
+		a = ler.nextDouble();
+		b = ler.nextDouble();
+		c = ler.nextDouble();
+		d = ler.nextDouble();
+		i = ler.nextDouble();
+		f = ler.nextDouble();
+		x = ler.nextDouble();
+		y = ler.nextDouble();
+		
+		x=(c*i-b*f)/(a*i-b*d);
+		y=(a*f-c*d)/(a*i-b*d);
+		
+		System.out.println("Os valores de X e Y são: "+x+" e "+y);
+		}
+
+}} 
