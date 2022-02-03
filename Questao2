@@ -1,0 +1,21 @@
+package Questao1;
+
+import java.util.Scanner;
+
+public class Questao2 {
+	public static void main (String args[]) {
+		Scanner ler = new Scanner (System.in);
+		int anos, meses, dias, anos1, meses2, total;
+		System.out.println("Digite quantos anos, meses e dias você tem: ");
+		anos = ler.nextInt();
+		meses = ler.nextInt();
+		dias = ler.nextInt();
+		
+		anos1 = anos*365;
+		meses2 = meses*30;
+		total = dias+anos1+meses2;		
+		
+		System.out.println("A sua idade em dias é: "+total);
+	}
+
+}
