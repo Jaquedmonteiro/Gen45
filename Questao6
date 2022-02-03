@@ -1,0 +1,25 @@
+package Questao1;
+import java.util.Scanner;
+public class Questao6 {
+	public static void main (String args[]) 
+	{
+		Scanner ler = new Scanner (System.in); {
+		double x1, x2, y1, y2, d, p1, p2;
+		System.out.println("Digite as coordenadas do ponto de partida: ");
+		x1 = ler.nextDouble();
+		y1 = ler.nextDouble();
+		System.out.println("Digite as coordenadas do ponto de destino: ");
+		x2 = ler.nextDouble();
+		y2 = ler.nextDouble();
+		
+		p1=Math.pow((x2-x1), 2);
+
+		p2=Math.pow((y2-y1), 2);
+
+		d=Math.sqrt((p1+p2));
+
+		System.out.print("A distancia entre os dois pontos é: "+ d);
+		
+		}
+
+} } 
