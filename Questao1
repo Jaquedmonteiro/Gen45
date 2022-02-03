@@ -1,0 +1,20 @@
+package Questao1;
+
+import java.util.Scanner;
+
+public class Questao1 {
+	public static void main (String args[])
+	{
+		Scanner ler = new Scanner (System.in);
+		int total, anos, restoAnos, meses, dias;
+		System.out.println("Quantos dias no total você tem?");
+		total = ler.nextInt();
+		
+		anos =  total/365;
+		restoAnos = total-(anos*365);
+		meses = restoAnos/30;
+		dias = restoAnos-(30*meses);
+		
+		System.out.println("Você tem "+anos+" anos "+meses+" meses e "+dias+" dias.");
+	}
+}
