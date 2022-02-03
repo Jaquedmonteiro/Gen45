@@ -1,0 +1,21 @@
+package Questao1;
+
+import java.util.Scanner;
+
+public class Questao3 {
+	public static void main (String args[])
+	{
+		Scanner ler = new Scanner (System.in);
+		int totalSegundos, restoHoras, horas, minutos, segundos;
+		System.out.println("Quantos segundos durou o evento da fábrica?");
+		totalSegundos = ler.nextInt();
+		
+		horas = totalSegundos/3600;
+		minutos = totalSegundos/60;
+		segundos = totalSegundos-(horas*60);
+		
+		System.out.println("O evento durou \"+horas+\" horas, \"+minutos+\" minutos e \"+segundos+\" segundos");
+		
+	}
+
+}
