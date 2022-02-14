@@ -1,3 +1,5 @@
+create database db_rh;
+
 use db_rh;
 
 create table tb_funcionarios(
