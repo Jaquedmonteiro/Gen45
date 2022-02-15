@@ -1,0 +1,27 @@
+Blog Pessoal
+
+
+<b>Postagens</b>
+
+id Bigint not null, auto_increment
+titulo varchar(100) not null
+texto varchar(1000) not null
+data date
+FK
+tema_id bigint
+FK
+usuario_id bigint
+
+
+Temas
+
+id bigint not null, auto_increment
+descricao varchar(255) not null
+
+Usuarios
+
+id bigint not null, auto_increment
+nome varchar(255) not null
+usuario varchar(255) not null
+senha varchar(255) not null
+foto varchar(255) 
