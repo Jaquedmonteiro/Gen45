@@ -1,7 +1,7 @@
 Blog Pessoal
 
 
-<b>Postagens</b>
+- Postagens
 
 id Bigint not null, auto_increment
 titulo varchar(100) not null
@@ -13,12 +13,12 @@ FK
 usuario_id bigint
 
 
-Temas
+- Temas
 
 id bigint not null, auto_increment
 descricao varchar(255) not null
 
-Usuarios
+- Usuarios
 
 id bigint not null, auto_increment
 nome varchar(255) not null
