@@ -1,6 +1,4 @@
-# Projeto Integrador 
-
-GRUPO 02
+# Projeto Integrador - GRUPO 02
 
 <strong>INTEGRANTES</strong><br/>
 Diego Belo<br/>
